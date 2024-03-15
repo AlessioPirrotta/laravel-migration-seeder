@@ -16,4 +16,3 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'index'])->name('home_page');
 
-Route::get('/about', [PageController::class, 'index_about'])->name('about_page');
